@@ -9,12 +9,12 @@ Uploading something simple to try out and play with the platform.
 
 ## Example code:
 
-<code>import numpy as np
+<code>import numpy as np</code></code>
   
-import QUBO2Ising as qb
+<code>import QUBO2Ising as qb</code>
 
-QUBO_array = np.genfromtxt('example.csv', delimiter=',')
+<code>QUBO_array = np.genfromtxt('example.csv', delimiter=',')</code>
 
-h, J = qb.QUBO2Ising(QUBO_array).generateIsing()
+<code>h, J = qb.QUBO2Ising(QUBO_array).generateIsing()</code>
 
-print(h, J)</code>
+<code>print(h, J)</code>
