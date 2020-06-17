@@ -4,6 +4,8 @@ This is my first try at Object Oriented Programming.
 
 Uploading something simple to try out and play with the platform.
 
+Generate Ising h, J from a QUBO array.
+
 ## To install:
 <code>pip install QUBO2Ising</code>
 
