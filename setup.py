@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='QUBO2Ising',
-      version='0.1.1',
+      version='0.1.2',
       description='Generate Ising array from a QUBO array.',
       packages=['QUBO2Ising'],
       author='Saptarshi Chakrabarti, Ayushman Kumar Banerjee',
