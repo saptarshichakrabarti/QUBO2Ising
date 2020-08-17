@@ -3,7 +3,7 @@ import numpy as np
 class QUBO2Ising:
     
     """
-    Module to generate Ising model from a QUBO array.
+    Module to generate Ising array from a QUBO array.
     
     Attributes:
             h (dict)
@@ -24,8 +24,8 @@ class QUBO2Ising:
         r, c = data.shape
     
         #check for square matrix
-        while not r == c:
-            print("Not a square matrix.")
+        if not r == c:
+            raise Exception("Not a square matrix")
         
         # generating dictionary of 'h' (diagonal) values
         for i in range(r):
